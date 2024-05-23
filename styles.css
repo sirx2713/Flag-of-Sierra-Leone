@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #FFE8C5;
+}
+#main-box{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px 200px 200px;
+}
+#main-box > #green-box{
+    background-color: #1EB53A;
+}
+#main-box > #white-box{
+    background-color: white;
+}
+#main-box > #blue-box{
+    background-color: #0072C6;
+}
